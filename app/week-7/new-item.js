@@ -26,7 +26,7 @@ return (
 <div className= " p-4 ">
     <form onSubmit={handleSubmit} className="max-w-sm mx-auto">
         <div className="mb-5 p-2 text-white bg-blue-500 rounded">
-        <label className="font-extrabold text-lg">
+        <label className="font-extrabold text-lg ">
             Name:
             <input className="ml-2 border-x-2 text-black" type="text" id="Name" autoComplete="Name of Product" required value={name} onChange={(event) => setName(event.target.value)}/>
         </label>
@@ -57,8 +57,8 @@ return (
             </select>
         </label>
         </div>
-        <div className="flex items-center justify-center">
-        <button type ="submit" className=" text-black font-extrabold text-lg bg-gradient-to-br from-blue-300 to-blue-500 hover:bg-gradient-to-bl p-3  rounded-md">Add Item</button>
+        <div className="flex items-center justify-center mb-5">
+        <button type ="submit" className=" text-black font-extrabold text-lg bg-gradient-to-br from-blue-300 to-blue-500 hover:bg-gradient-to-bl p-3 w-36  rounded-md">Add Item</button>
         </div>
               
     </form>
